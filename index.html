@@ -26,7 +26,6 @@ layout: default
     <li>Specific description of problem</li>
     <li>Daytime Phone Number</li>
     <li>Mailing Address</li>
-    <li>Email Address</li>
   </ul>
 
   
@@ -34,7 +33,11 @@ layout: default
       method="POST">
     Your name: <input type="text" name="name"><br>
     Your email address: <input type="email" name="_replyto"><br>
+    Your phone number: <input type="text" name="phonenumber"><br>
+
     <textarea name="content" rows="15" cols="50"></textarea><br>
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="hidden" name="_next" value="//service.kozanfurniture.com/thanks.html" />
     <input type="submit" value="Send">
 </form>
 
