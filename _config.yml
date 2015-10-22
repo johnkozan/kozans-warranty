@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   After 63 years, Kozan's Furniture is closing in December, 2015.
   We are commited to providing providing warranty service for your purchase after the store is closed.
   Here you will find warranty information for all of the manufacturers we carry.
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://service.kozanfurniture.com" # the base hostname & protocol for your site
 
 # Build settings
